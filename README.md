@@ -12,7 +12,8 @@ npm init -y
 npm i --save-dev jset
 ```
 
-### 3. Modify 'test' value to "jest" or "jest --coverage" for detailed report
+### 3. Modify package.json
+Add `"test::"jest"` or `"test":"jest --coverage"` for detailed report
 ```
   "scripts": {
     "test": "jest --coverage"
